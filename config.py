@@ -1,0 +1,12 @@
+config = {'Root': '/data2/pengchengtao/p50017327_transfer_tf/',
+       'train_dir': "/data2/pengchengtao/p50017327_transfer_tf/train.txt",
+       'test_dir': "/data2/pengchengtao/p50017327_transfer_tf/test.txt",
+       'img_dir': "/data2/pengchengtao/dataset/",
+       'checkpoints_dir':'/data2/pengchengtao/p50017327_transfer_tf/checkpoints/',
+       'logs_dir':'/data2/pengchengtao/p50017327_transfer_tf/logs/',
+       'batch_size':4,
+       'workers':4,
+       'epochs':500,
+       'margin_D':45,
+       'margin_R':45,
+       'output_num':128}
